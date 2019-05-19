@@ -1,0 +1,99 @@
+.mymenu{
+	padding: 0;
+}
+.mymenu, .mymenu ol{
+	list-style: none;
+}
+.mymenu > li ol .mymgmenu{
+	display: none;
+}
+.mymenu input {
+	color: #666;
+	font-style: italic;
+}
+.innermenu{
+	color: #666;
+	clear: both;
+	line-height: 1.5em;
+	margin: 9px 0 0;
+	position: relative;
+}
+.arrow-icon {
+	cursor: pointer;
+}
+.myhrborder {
+  border-bottom: 1px inset #ffffff !important;
+  margin-bottom: 10px;
+  margin-top: 17px;
+}
+.deletebutton {
+	background: none;
+	border: none;
+	color: #f00;
+	cursor: pointer;
+	font-size: 14px;
+	font-style: italic;
+	padding: 0;
+}
+.deletebutton:hover {
+	color: #00f;
+}
+.innermenu .ui-sortable-placeholder {  
+    border: 1px dashed #aaa;
+}
+.mymenuitem .ui-sortable-placeholder {  
+    border: 1px dashed #aaa;
+}
+.title{
+	font-weight: bold;
+	cursor: move;
+}
+.innermenuhead > div:hover{
+	color: #f00;
+}
+.innermenuhead{
+	border: 1px solid #dfdfdf;
+	height: auto;
+	min-height: 37px;
+	overflow: hidden;
+	padding: 5px 15px;
+	position: relative;
+	width: 382px;
+	word-wrap: break-word;
+	background: #FAFAFA;
+}
+.innermenuhead > div{
+	float: left;
+}
+.innermenuhead > div:last-child{
+	float: right;
+}
+.innermenuhead > div:last-child{
+	text-align: right;
+}
+.innermenubody{
+	width: 382px;
+	padding:5px 10px 10px;
+	border: 1px solid #e5e5e5;
+	border-top:none;
+	display: none;
+}
+.innermenubody p{
+	margin: 3px;
+}
+.innermenubody label{
+	font-style: italic;
+}
+.innermenubody input[type="text"]{
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+	border: 1px solid #ddd;
+	width: 100%;
+	padding: 5px;
+}
+.innermenubody input[type="checkbox"] {
+  margin-right: 7px;
+  vertical-align: top;
+}
+.innermenu .innermenuhead .fa {
+	padding-left: 5px;
+}
