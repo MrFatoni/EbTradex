@@ -1,10 +1,3 @@
-## Cryptomania - Kickstarter
-
-
-#### Introduction
-
-Cryptomania is built with laravel with required core functionalities for almost all projects. Visit the official website [Cryptomania](http://cryptomania.codemen.org)
-
 #### Technology used in Development Environment
 
 * Php 7.2+
